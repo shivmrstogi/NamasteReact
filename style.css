@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    height: 100px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    margin-left: 5%;
+}
+.logo img{
+    height: 100%;
+}
+.menu{
+    height: 100%;
+    margin-right: 5%;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li{
+    margin: 15px;
+    cursor: pointer;
+}
